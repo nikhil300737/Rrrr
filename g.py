@@ -15,10 +15,10 @@ import signal
 
 # Set constants and configure logging
 REQUEST_INTERVAL = 1
-TOKEN = '6495895757:AAHVL6tjwQTUpBPKqY7kGIGK-Ul01k958NM'
+TOKEN = '8116443622:AAFa9hy7a_roljh1qpiAk2nd7DKRsqGX--g'
 MONGO_URI = 'mongodb+srv://deepaidb:51354579914@deepaidb.imzonfj.mongodb.net/?retryWrites=true&w=majority&appName=deepaidb'
-CHANNEL_ID = -1002200678079
-ADMIN_IDS = [2067727121]
+CHANNEL_ID = -1002350529884
+ADMIN_IDS = [6971593594]
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
